@@ -13,6 +13,8 @@ function clickSwapImg() {}
 </script>
 <script language="JavaScript1.2" fptype="dynamicanimation" src="animate.js">
 </script>
+<style fprolloverstyle>A:hover {font-family: NSimSun; font-weight: bold}
+</style>
 </head>
 
 <body onload="dynAnimation()" language="Javascript1.2">
@@ -21,14 +23,24 @@ function clickSwapImg() {}
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
-<p align="center" dynamicanimation="fpAnimflyTopFP1" id="fpAnimflyTopFP1" style="position: relative !important; visibility: hidden" language="Javascript1.2">&nbsp;</p>
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
-<p align="center" dynamicanimation="fpAnimflyTopFP2" id="fpAnimflyTopFP2" style="position: relative !important; visibility: hidden" language="Javascript1.2">
-<img border="0" src="250px-0258Mudkip%20-%20Copy.jpg"></p>
+<div style="position: absolute; width: 250px; height: 251px; z-index: 1; left: 325px; top: 326px" id="layer1">
+	<p dynamicanimation="fpAnimflyRightFP1" id="fpAnimflyRightFP1" style="position: relative !important; visibility: hidden" language="Javascript1.2">
+	<img border="0" src="0258Mudkip.png" width="250" height="250" align="middle"></p>
+</div>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<div style="position: absolute; width: 227px; height: 100px; z-index: 2; left: 679px; top: 398px" id="layer2">
+	<p dynamicanimation="fpAnimdropWordFP1" id="fpAnimdropWordFP1" style="position: relative !important; visibility: hidden" language="Javascript1.2">
+	HIT THE SECOND TOWER<br>
+	TODAY!<br>
+&nbsp;</p>
+</div>
+<p align="center" dynamicanimation="fpAnimelasticRightFP1" id="fpAnimelasticRightFP1" style="position: relative !important; visibility: hidden" language="Javascript1.2">&nbsp;</p>
 
 </body>
 

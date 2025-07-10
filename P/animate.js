@@ -6,7 +6,7 @@
 	animateElements = new Array()
 	timeout = -1
 	currentElement = 0
-	speed = 1
+	speed = .05
 	stepsZoom = 8
 	stepsWord = 8
 	stepsFly = 17
