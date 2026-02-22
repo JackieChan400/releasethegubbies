@@ -1,4 +1,4 @@
-.bro {
+.bro{
   height:200px;
   width:200px;
   position:absolute;
@@ -11,7 +11,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 100vh;
 
 }
 
