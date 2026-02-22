@@ -2,15 +2,13 @@
   height:200px;
   width:200px;
   position:absolute;
-  font-size:55px;
-  animation: spin 1s ease;
+  animation: spin 2s ease;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   transform-style: preserve-3d;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 
 }
 
