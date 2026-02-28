@@ -3,17 +3,20 @@
 }
 
 .bro{
+  perspective: 10px;
   height:200px;
   width:200px;
   position:absolute;
   animation: spin 2s ease;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  transform-style: preserve-3d;
+  position: center;
+}
+
+div {
   display: flex;
   justify-content: center;
-  align-items: center;
-
+  padding-top: 35vh;
 }
 
 @keyframes spin {
